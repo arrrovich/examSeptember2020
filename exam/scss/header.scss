@@ -1,0 +1,105 @@
+header {
+    .head {
+        display: flex;
+        justify-content: space-evenly;
+        max-width: 1366px;
+        margin: 0 auto;
+        margin-top: 40px;
+    
+        ul {
+            display: flex;
+            list-style: none;
+            color: white;
+            a {
+                text-decoration: none;
+            }
+
+            li {
+                margin-left: 14px;
+                color: #ffffff;
+                padding: 5px 10px;
+                
+            }
+
+            li:hover {
+                background: #d2d2d5;
+                color: #161628;
+                border-radius: 5px;
+            }
+        }
+        .dropdown-block {
+            .dropdown {
+                display: none;
+            }
+            .dropdown-input {
+                display: none;
+            }
+        }
+    
+        .logo_block {
+            display: flex;
+            color: white;
+            div {
+                h1 {
+                    font-family: title-font;
+                    font-size: 35px;
+                }
+                margin-left: 9px;
+            }
+        }
+    }
+
+
+    @media screen and (max-width: 800px) {
+        .head {
+            display: block;
+            max-width: 1366px;
+            margin: 0 auto;
+            margin-top: 40px;
+            
+        
+            ul {
+                display: none;
+            }
+           .dropdown-block {
+               margin-top: 30px;
+               width: 100%;
+               display: flex;
+               justify-content: space-between;
+                .dropdown {
+                position: relative;
+                display: block;
+                text-align: left;
+                width: 40px;
+                height: 40px;
+                
+                }
+                .dropdown-input {
+                    display: block;
+                    input {
+                        margin:0 15px; 
+                        width: 90%;
+                        height: 30px;
+                        margin-left: -10px;
+                        border-radius: 15px;
+                    }
+                }
+            }
+        
+            .logo_block {
+                margin: 0;
+                padding: 0;
+
+                display: flex;
+                color: white;
+                justify-content: center;
+                div {
+                    h1 {
+                        font-family: title-font;
+                        font-size: 35px;
+                    }
+                }
+            }
+        }
+      }
+}

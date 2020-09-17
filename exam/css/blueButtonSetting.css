@@ -1,0 +1,45 @@
+.blueButton {
+    display: block;
+    width: 130px;
+    height: 32px;
+    margin: auto;
+    background-color: #2359a7;
+    color: white;
+    border-radius: 5px;
+    outline: 0 !important;
+    border: 0;
+    background: rgb(45,107,194);
+    background: linear-gradient(180deg, rgba(45,107,194,1) 0%, rgba(23,66,132,1) 49%);  
+    font-family: for-buttons;
+    font-size: 16px;
+    transition: 0.25s;
+}
+.blueButton:hover {
+    transform: scale(1.2);
+}
+
+.WhiteButton {
+    display: block;
+    width: 130px;
+    height: 32px;
+    margin: auto;
+    background-color: #2359a7;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    outline: 0 !important;
+    border: 0;
+    background: #e7e8ea;
+    font-family: for-buttons;
+    font-size: 16px;
+}
+
+.inputTextDark {
+    border-radius: 10px;
+    background: #242439;
+    resize: none;
+    -webkit-box-shadow: inset 0px 0px 8px 2px rgba(0,0,0,0.77);
+    -moz-box-shadow: inset 0px 0px 8px 2px rgba(0,0,0,0.77);
+    box-shadow: inset 0px 0px 8px 2px rgba(0,0,0,0.77);
+    outline: none;
+    border: none;
+}

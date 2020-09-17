@@ -1,0 +1,36 @@
+.owl-theme .owl-dots {
+    display: none;
+}
+
+.owl-theme .owl-nav {
+    
+    display: flex;
+    justify-content: space-between;
+    margin: -250px -25px 250px -25px;
+}
+
+.owl-prev > span {
+    color: white;
+    font-size: 40px;
+}
+
+
+.owl-next > span {
+    color: white;
+    font-size: 40px;
+}
+
+@media screen and (max-width: 800px) {
+    .owl-theme .owl-dots {
+        display: block;
+        margin: auto;
+        margin-bottom: 35px;
+    }
+    .owl-theme .owl-nav {
+        display: none;
+    }
+
+    .owl-next > span {
+        display: none;
+    }
+}

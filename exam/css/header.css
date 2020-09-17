@@ -1,0 +1,87 @@
+header .head {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 1366px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+header .head ul {
+  display: flex;
+  list-style: none;
+  color: white;
+}
+header .head ul a {
+  text-decoration: none;
+}
+header .head ul li {
+  margin-left: 14px;
+  color: #ffffff;
+  padding: 5px 10px;
+}
+header .head ul li:hover {
+  background: #d2d2d5;
+  color: #161628;
+  border-radius: 5px;
+}
+header .head .dropdown-block .dropdown {
+  display: none;
+}
+header .head .dropdown-block .dropdown-input {
+  display: none;
+}
+header .head .logo_block {
+  display: flex;
+  color: white;
+}
+header .head .logo_block div {
+  margin-left: 9px;
+}
+header .head .logo_block div h1 {
+  font-family: title-font;
+  font-size: 35px;
+}
+@media screen and (max-width: 800px) {
+  header .head {
+    display: block;
+    max-width: 1366px;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+  header .head ul {
+    display: none;
+  }
+  header .head .dropdown-block {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  header .head .dropdown-block .dropdown {
+    position: relative;
+    display: block;
+    text-align: left;
+    width: 40px;
+    height: 40px;
+  }
+  header .head .dropdown-block .dropdown-input {
+    display: block;
+  }
+  header .head .dropdown-block .dropdown-input input {
+    margin: 0 15px;
+    width: 90%;
+    height: 30px;
+    margin-left: -10px;
+    border-radius: 15px;
+  }
+  header .head .logo_block {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    color: white;
+    justify-content: center;
+  }
+  header .head .logo_block div h1 {
+    font-family: title-font;
+    font-size: 35px;
+  }
+}

@@ -1,0 +1,114 @@
+body {
+  background: url(/images/bg.png) 50% 100% no-repeat;
+  background-position: top;
+  background-color: #e7e8ea;
+}
+body h1, body h2, body h3, body h4, body h5, body h6, body p, body li {
+  font-family: main-font;
+}
+body h1 {
+  font-size: 25px;
+  color: #505050;
+}
+body p {
+  color: #5f7390;
+  font-size: 15px;
+  margin-left: 12px;
+}
+body hr {
+  margin: 0;
+  color: white;
+  background-color: white;
+}
+body button, body input {
+  outline: none;
+  border: none;
+}
+body main {
+  max-width: 935px;
+  margin: 0 auto;
+  background-color: #e7e8ea;
+  border-radius: 10px 10px 0 0;
+}
+body main .header-main {
+  width: 100%;
+  height: 130px;
+  margin: auto;
+  background-color: #e0e1e3;
+  margin-top: 42px;
+  border-radius: 10px 10px 0 0;
+}
+body main .header-main .header-main-flex {
+  display: flex;
+  justify-content: space-between;
+}
+body main .header-main .header-main-flex div {
+  margin-top: 20px;
+  padding: 0 40px;
+}
+body main .header-main .header-main-flex div h1 {
+  font-size: 25px;
+  color: #505050;
+}
+body main .header-main .header-main-flex div p {
+  color: #5f7390;
+  font-size: 15px;
+  margin-left: 12px;
+}
+body main .header-main .header-main-flex div input {
+  margin-top: 5px;
+  border-radius: 15px;
+  width: 244px;
+  height: 27px;
+}
+@media screen and (max-width: 800px) {
+  body main .header-main {
+    display: none;
+  }
+}
+body main .main {
+  display: block;
+  max-width: 989px;
+  margin: auto;
+}
+body main .main .owl-carousel .slider-block {
+  width: 33%;
+}
+body main .main .owl-carousel .slider-block img {
+  width: 100%;
+}
+body main .main .tabs {
+  width: 95%;
+  margin: auto;
+}
+body main .main .tabs .btn-tabs {
+  margin-top: 40px;
+  display: flex;
+  justify-content: left;
+  width: 55%;
+}
+body main .main .tabs .btn-tabs button {
+  color: white;
+  margin: 0;
+  padding: 0;
+  border-radius: 5px 5px 0 0;
+}
+body main .main .tabs .btn-tabs > button:nth-child(1) {
+  background-color: #47475b;
+}
+body main .main .tabs .btn-tabs > button:nth-child(2) {
+  background-color: #cfcfd1;
+  margin-left: 10px;
+}
+body main .main .grid {
+  display: grid;
+  width: 100%;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2%;
+}
+body main .main .grid div {
+  font-size: 5vw;
+  padding: 0.5em;
+  text-align: center;
+}

@@ -1,0 +1,266 @@
+footer {
+  max-width: 1366px;
+  height: 280px;
+  background: url(/images/footerbg1.png) 50% 100% no-repeat;
+  background-position: bottom;
+  background-color: #353546;
+  margin: auto;
+}
+footer .footer-block {
+  max-width: 935px;
+  height: 280px;
+  margin: auto;
+  margin-top: 80px;
+}
+footer .footer-block .top-block {
+  display: flex;
+  justify-content: space-between;
+  max-width: 821px;
+  margin: left;
+}
+footer .footer-block .top-block .top-block-img {
+  width: 65px;
+  height: 65px;
+  border: 2px solid #e7e8ea;
+  border-radius: 50%;
+  background: #e7e8ea;
+  margin-top: 20px;
+}
+footer .footer-block .top-block .top-block-img img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+footer .footer-block .top-block .top-block-text {
+  width: 84%;
+  color: white;
+  font-size: 12px;
+  margin-top: 30px;
+}
+footer .footer-block .top-block .top-block-text .vers {
+  text-align: right;
+}
+footer .footer-block .top-block .top-block-text p {
+  color: #a8a8b0;
+  font-size: 14px;
+}
+footer .footer-block .top-block .top-block-text .vers {
+  font-family: "Contrail One", cursive;
+  color: #cbcbcc;
+}
+footer .footer-block #shadowLine {
+  margin-top: 10px;
+}
+footer .footer-block .bot-block {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  max-width: 935px;
+  margin: auto;
+  margin-top: 10px;
+}
+footer .footer-block .bot-block .bot-block-left {
+  width: 55%;
+  color: white;
+}
+footer .footer-block .bot-block .bot-block-left h1 {
+  font-family: for-buttons;
+  font-size: 25px;
+  color: #e7e8ea;
+}
+footer .footer-block .bot-block .bot-block-left p {
+  color: #a8a8b0;
+  font-size: 14px;
+  margin-left: 120px;
+}
+footer .footer-block .bot-block .bot-block-left .bot-block-left-inputs {
+  margin-top: 10px;
+  display: flex;
+}
+footer .footer-block .bot-block .bot-block-left .bot-block-left-inputs input {
+  width: 207px;
+  height: 24px;
+}
+footer .footer-block .bot-block .bot-block-left .bot-block-left-inputs button {
+  width: 80px;
+  height: 24px;
+  margin-left: 15px;
+}
+footer .footer-block .bot-block .bot-block-left .socials {
+  display: flex;
+}
+footer .footer-block .bot-block .bot-block-left .socials div {
+  width: 18px;
+  height: 18px;
+  margin-left: 25px;
+  background-color: #464659;
+  border-radius: 50%;
+  padding: 10px;
+  margin-top: 30px;
+}
+footer .footer-block .bot-block .bot-block-right {
+  width: 40%;
+}
+footer .footer-block .bot-block .bot-block-right h1 {
+  font-family: for-buttons;
+  font-size: 25px;
+  color: #e7e8ea;
+}
+footer .footer-block .bot-block .bot-block-right .bot-block-right-inputs {
+  display: flex;
+}
+footer .footer-block .bot-block .bot-block-right .bot-block-right-inputs .inputs-left input {
+  width: 210px;
+  height: 25px;
+  margin-top: 10px;
+  color: white;
+}
+footer .footer-block .bot-block .bot-block-right .bot-block-right-inputs .inputs-right textarea {
+  margin-top: 10px;
+  margin-left: 12px;
+  color: white;
+}
+footer .footer-block .bot-block .bot-block-right .bot-block-right-inputs .inputs-right button {
+  margin-top: 32px;
+}
+
+@media screen and (max-width: 800px) {
+  footer {
+    max-width: 100%;
+    background: #000;
+    background-position: bottom;
+    background-color: #353546;
+    margin: auto;
+    height: 650px;
+  }
+  footer .footer-block {
+    max-width: 935px;
+    height: 280px;
+    margin: auto;
+    margin-top: 80px;
+  }
+  footer .footer-block .top-block {
+    display: flex;
+    justify-content: space-between;
+    max-width: 821px;
+    margin: left;
+  }
+  footer .footer-block .top-block .top-block-img {
+    width: 65px;
+    height: 65px;
+    border: 2px solid #e7e8ea;
+    border-radius: 50%;
+    background: #e7e8ea;
+    margin-top: 20px;
+  }
+  footer .footer-block .top-block .top-block-img img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+  footer .footer-block .top-block .top-block-text {
+    width: 84%;
+    color: white;
+    font-size: 12px;
+    margin-top: 30px;
+  }
+  footer .footer-block .top-block .top-block-text .vers {
+    text-align: right;
+  }
+  footer .footer-block .top-block .top-block-text p {
+    color: #a8a8b0;
+    font-size: 14px;
+  }
+  footer .footer-block .top-block .top-block-text .vers {
+    font-family: "Contrail One", cursive;
+    color: #cbcbcc;
+  }
+  footer .footer-block #shadowLine {
+    margin-top: 10px;
+  }
+  footer .footer-block .bot-block {
+    width: 100%;
+    display: block;
+    max-width: 935px;
+    margin: auto;
+    margin-top: 10px;
+  }
+  footer .footer-block .bot-block .bot-block-left {
+    width: 80%;
+    color: white;
+    margin: auto;
+  }
+  footer .footer-block .bot-block .bot-block-left p {
+    color: #a8a8b0;
+    font-size: 14px;
+    margin: auto;
+  }
+  footer .footer-block .bot-block .bot-block-left .bot-block-left-inputs {
+    margin-top: 10px;
+    display: flex;
+  }
+  footer .footer-block .bot-block .bot-block-left .bot-block-left-inputs input {
+    width: 65%;
+    height: 24px;
+  }
+  footer .footer-block .bot-block .bot-block-left .bot-block-left-inputs button {
+    width: 100%;
+    height: 24px;
+    margin-left: 15px;
+  }
+  footer .footer-block .bot-block .bot-block-left .socials {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  footer .footer-block .bot-block .bot-block-left .socials div {
+    margin: 0;
+    width: 18px;
+    height: 18px;
+    background-color: #464659;
+    border-radius: 50%;
+    padding: 10px;
+    margin-top: 15px;
+  }
+  footer .footer-block .bot-block .bot-block-right {
+    width: 100%;
+    margin: 0;
+    margin: auto;
+  }
+  footer .footer-block .bot-block .bot-block-right h1 {
+    font-family: for-buttons;
+    font-size: 25px;
+    color: #e7e8ea;
+  }
+  footer .footer-block .bot-block .bot-block-right .bot-block-right-inputs {
+    display: block;
+    margin: 0;
+    margin: auto;
+  }
+  footer .footer-block .bot-block .bot-block-right .bot-block-right-inputs .inputs-left {
+    margin: 0;
+    width: 70%;
+    margin: 0 auto;
+  }
+  footer .footer-block .bot-block .bot-block-right .bot-block-right-inputs .inputs-left input {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 25px;
+    color: white;
+    margin-top: 20px;
+  }
+  footer .footer-block .bot-block .bot-block-right .bot-block-right-inputs .inputs-right {
+    width: 100%;
+    margin: 0;
+    margin-top: 20px;
+  }
+  footer .footer-block .bot-block .bot-block-right .bot-block-right-inputs .inputs-right textarea {
+    padding: 0;
+    width: 90%;
+    margin-top: 20px;
+    color: white;
+  }
+  footer .footer-block .bot-block .bot-block-right .bot-block-right-inputs .inputs-right button {
+    margin-top: 20px;
+  }
+}

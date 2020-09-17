@@ -1,0 +1,19 @@
+@font-face {
+    font-family: title-font; 
+    src: url(/fonts/flarelightgothic.ttf); 
+   }
+
+@font-face {
+    font-family: main-font; 
+    src: url(/fonts/FRABK.TTF); 
+   }
+
+   @font-face {
+    font-family: for-buttons; 
+    src: url(/fonts/ColabReg.otf); 
+   }
+
+   @font-face {
+    font-family: chungFive; 
+    src: url(/fonts/chunkfive.regular.ttf); 
+   }

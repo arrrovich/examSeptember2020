@@ -1,0 +1,137 @@
+main {
+  max-width: 935px;
+  margin: 0 auto;
+  background-color: #e7e8ea;
+  border-radius: 10px 10px 0 0;
+}
+main .header-main {
+  width: 100%;
+  height: 130px;
+  margin: auto;
+  background-color: #e0e1e3;
+  margin-top: 42px;
+  border-radius: 10px 10px 0 0;
+}
+main .header-main .header-main-flex {
+  display: flex;
+  justify-content: space-between;
+}
+main .header-main .header-main-flex div {
+  margin-top: 20px;
+  padding: 0 40px;
+}
+main .header-main .header-main-flex div h1 {
+  font-size: 25px;
+  color: #505050;
+}
+main .header-main .header-main-flex div p {
+  color: #5f7390;
+  font-size: 15px;
+  margin-left: 12px;
+}
+main .header-main .header-main-flex div input {
+  margin-top: 5px;
+  border-radius: 15px;
+  width: 244px;
+  height: 27px;
+}
+@media screen and (max-width: 800px) {
+  main .header-main {
+    display: none;
+  }
+}
+main .ipads {
+  margin: auto;
+}
+main .ipads .ipads-text {
+  margin-top: 45px;
+  display: block;
+  text-align: center;
+}
+main .ipads .ipads-text h1 {
+  font-size: 30px;
+  color: #505050;
+}
+main .ipads .ipads-text p {
+  color: #5f7390;
+  font-size: 18px;
+}
+main .ipads .ipads-images {
+  display: flex;
+  justify-content: space-between;
+}
+main .ipads .ipads-images div:nth-child(1) {
+  position: absolute;
+  z-index: 0;
+  top: 450px;
+  left: calc(50% - 350px);
+}
+main .ipads .ipads-images div:nth-child(2) {
+  z-index: 1;
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+}
+main .ipads .ipads-images div:nth-child(3) {
+  position: absolute;
+  z-index: 0;
+  top: 450px;
+  right: calc(50% - 350px);
+}
+main .ipads .ipads-shadow {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+@media screen and (max-width: 800px) {
+  main .ipads .ipads-images {
+    display: flex;
+    justify-content: space-between;
+  }
+  main .ipads .ipads-images div:nth-child(1) {
+    display: none;
+  }
+  main .ipads .ipads-images div:nth-child(2) img {
+    width: 100%;
+  }
+  main .ipads .ipads-images div:nth-child(3) {
+    display: none;
+  }
+  main .ipads .ipads-shadow {
+    display: none;
+  }
+}
+main .ipads .button {
+  width: 100%;
+}
+main .ipads .description .block-1 h1 {
+  font-size: 28px;
+  color: #505050;
+}
+main .ipads .description .block-1 p {
+  margin-top: 20px;
+  font-size: 16px;
+  margin-left: 10px;
+  color: #828181;
+}
+main .ipads .description .block-2 {
+  margin-left: 50px;
+}
+main .ipads .description .block-2 h1 {
+  margin-top: 35px;
+  font-size: 28px;
+  color: #505050;
+}
+main .ipads .description .block-2 .block-2-par {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 10px;
+  color: #828181;
+}
+main .ipads .description .block-2 .block-2-par .childdd {
+  margin-left: 10px;
+}
+main .ipads .description .block-2 .block-2-par div > img {
+  margin-top: 2px;
+}
