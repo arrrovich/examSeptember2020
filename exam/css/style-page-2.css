@@ -105,10 +105,10 @@ body main .main .grid {
   width: 100%;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 2%;
+  grid-gap: 10%;
 }
 body main .main .grid div {
   font-size: 5vw;
-  padding: 0.5em;
   text-align: center;
+  background-color: #1cd4a6;
 }

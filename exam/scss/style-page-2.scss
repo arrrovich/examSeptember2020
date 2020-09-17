@@ -111,11 +111,11 @@ body {
                 width: 100%;
                 grid-template-rows: 1fr 1fr 1fr;
                 grid-template-columns: 1fr 1fr 1fr;
-                grid-gap: 2%;
+                grid-gap: 10%;
                 div {
                     font-size: 5vw;
-                    padding: .5em;
                     text-align: center;
+                    background-color: rgb(28, 212, 166);
                 }
             }
         } 
