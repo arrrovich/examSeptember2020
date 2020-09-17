@@ -6,15 +6,6 @@ body {
     h1,h2,h3,h4,h5,h6,p,li {
         font-family: main-font;
     }
-    h1 {
-        font-size: 25px;
-        color: #505050;
-    }
-    p {
-        color: #5f7390;
-        font-size: 15px;
-        margin-left: 12px;
-    }
     hr {
         margin: 0;
         color: white;
@@ -27,6 +18,15 @@ body {
     } 
 
     main {
+        h1 {
+            font-size: 25px;
+            color: #505050;
+        }
+        p {
+            color: #5f7390;
+            font-size: 15px;
+            margin-left: 12px;
+        }
         max-width: 935px;
         margin: 0 auto;
         background-color: #e7e8ea;
@@ -74,12 +74,25 @@ body {
             display: block;
             max-width: 989px;
             margin: auto;
-
+            
             .owl-carousel {
+                margin-top: 30px;
+                .owl-item {
+                    margin: auto;
+                    text-align: center;
+                    text-align: -webkit-center;
+                }
                 .slider-block {
-                    width: 33%;
+                    width: 75%;
                     img {
                         width: 100%;
+                    }
+                    h1,p {
+                        text-align: left;
+                        margin-left: 10px;
+                    }
+                    button {
+                        margin-top: 8px;
                     }
                 }
             }
@@ -108,14 +121,50 @@ body {
 
             .grid { 
                 display: grid;
-                width: 100%;
+                width: 90%;
                 grid-template-rows: 1fr 1fr 1fr;
                 grid-template-columns: 1fr 1fr 1fr;
-                grid-gap: 10%;
-                div {
-                    font-size: 5vw;
-                    text-align: center;
-                    background-color: rgb(28, 212, 166);
+                grid-gap: 5%;
+                margin: auto;
+                margin-top: 20px;
+                .grid-block {
+                    display: flex;
+                    div {
+                        font-size: 15px;
+                        text-align: center;
+                        h1 {font-size: 23px;}
+                        p {font-size: 12px;}
+                        h1,p {
+                            text-align: left;
+                            margin-left: 10px;
+                        }
+                        button {
+                            margin-top: 10px;
+                            width: 94px;
+                            height: 24px;
+                        }
+                    }
+                }
+            }
+
+            @media screen and (max-width: 800px) {
+                .grid { 
+                    grid-template-rows: 1fr ;
+                    grid-template-columns:1fr;
+                    height: 1150px;
+                    margin-top: 10px;
+                    width: 90%;
+                    grid-gap: 1%;
+                    .grid-block {
+                        display: flex;
+                        div {
+                            button {
+                                margin-top: 10px;
+                                width: 94px;
+                                height: 24px;
+                            }
+                        }
+                    }
                 }
             }
         } 

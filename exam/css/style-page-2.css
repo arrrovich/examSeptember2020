@@ -6,15 +6,6 @@ body {
 body h1, body h2, body h3, body h4, body h5, body h6, body p, body li {
   font-family: main-font;
 }
-body h1 {
-  font-size: 25px;
-  color: #505050;
-}
-body p {
-  color: #5f7390;
-  font-size: 15px;
-  margin-left: 12px;
-}
 body hr {
   margin: 0;
   color: white;
@@ -29,6 +20,15 @@ body main {
   margin: 0 auto;
   background-color: #e7e8ea;
   border-radius: 10px 10px 0 0;
+}
+body main h1 {
+  font-size: 25px;
+  color: #505050;
+}
+body main p {
+  color: #5f7390;
+  font-size: 15px;
+  margin-left: 12px;
 }
 body main .header-main {
   width: 100%;
@@ -71,11 +71,26 @@ body main .main {
   max-width: 989px;
   margin: auto;
 }
+body main .main .owl-carousel {
+  margin-top: 30px;
+}
+body main .main .owl-carousel .owl-item {
+  margin: auto;
+  text-align: center;
+  text-align: -webkit-center;
+}
 body main .main .owl-carousel .slider-block {
-  width: 33%;
+  width: 75%;
 }
 body main .main .owl-carousel .slider-block img {
   width: 100%;
+}
+body main .main .owl-carousel .slider-block h1, body main .main .owl-carousel .slider-block p {
+  text-align: left;
+  margin-left: 10px;
+}
+body main .main .owl-carousel .slider-block button {
+  margin-top: 8px;
 }
 body main .main .tabs {
   width: 95%;
@@ -102,13 +117,50 @@ body main .main .tabs .btn-tabs > button:nth-child(2) {
 }
 body main .main .grid {
   display: grid;
-  width: 100%;
+  width: 90%;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 10%;
+  grid-gap: 5%;
+  margin: auto;
+  margin-top: 20px;
 }
-body main .main .grid div {
-  font-size: 5vw;
+body main .main .grid .grid-block {
+  display: flex;
+}
+body main .main .grid .grid-block div {
+  font-size: 15px;
   text-align: center;
-  background-color: #1cd4a6;
+}
+body main .main .grid .grid-block div h1 {
+  font-size: 23px;
+}
+body main .main .grid .grid-block div p {
+  font-size: 12px;
+}
+body main .main .grid .grid-block div h1, body main .main .grid .grid-block div p {
+  text-align: left;
+  margin-left: 10px;
+}
+body main .main .grid .grid-block div button {
+  margin-top: 10px;
+  width: 94px;
+  height: 24px;
+}
+@media screen and (max-width: 800px) {
+  body main .main .grid {
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    height: 1150px;
+    margin-top: 10px;
+    width: 90%;
+    grid-gap: 1%;
+  }
+  body main .main .grid .grid-block {
+    display: flex;
+  }
+  body main .main .grid .grid-block div button {
+    margin-top: 10px;
+    width: 94px;
+    height: 24px;
+  }
 }
