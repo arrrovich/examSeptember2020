@@ -1,8 +1,9 @@
 @charset "UTF-8";
 body {
-  background: url(/images/bg.png) 50% 100% no-repeat;
+  background: url(/images/bg.png) 50% 100% repeat-x;
   background-position: top;
   background-color: #e7e8ea;
+  width: 100%;
 }
 body h1, body h2, body h3, body h4, body h5, body h6, body p, body li {
   font-family: main-font;
@@ -107,6 +108,48 @@ body main .main_block .gallery .gallery-block {
   border: 2px solid #ffffff;
   background: #fafafa;
   background: linear-gradient(180deg, #fafafa 0%, #e2e2e2 49%);
+  border-radius: 5px;
+}
+body main .main_block .gallery > .gallery-block:nth-child(4) {
+  margin: 0;
+  padding: 0;
+  background-image: url(/images/page1/gallery-4.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+}
+body main .main_block .gallery > .gallery-block:nth-child(4) p {
+  margin-top: 55%;
+}
+body main .main_block .gallery > .gallery-block:nth-child(1) {
+  text-align: right;
+}
+body main .main_block .gallery > .gallery-block:nth-child(1) img {
+  margin-top: 10px;
+}
+body main .main_block .gallery > .gallery-block:nth-child(1) p {
+  text-align: center;
+  margin-top: -5px;
+}
+body main .main_block .gallery > .gallery-block:nth-child(2) {
+  text-align: center;
+}
+body main .main_block .gallery > .gallery-block:nth-child(2) img {
+  margin-top: 10px;
+}
+body main .main_block .gallery > .gallery-block:nth-child(2) p {
+  text-align: center;
+  margin-top: -4px;
+}
+body main .main_block .gallery > .gallery-block:nth-child(3) {
+  text-align: center;
+}
+body main .main_block .gallery > .gallery-block:nth-child(3) img {
+  margin-top: 10px;
+}
+body main .main_block .gallery > .gallery-block:nth-child(3) p {
+  text-align: center;
+  margin-top: 16px;
 }
 @media screen and (max-width: 800px) {
   body main .main_block .gallery {
@@ -119,6 +162,15 @@ body main .main_block .gallery .gallery-block {
     border: 2px solid #ffffff;
     background: #fafafa;
     background: linear-gradient(180deg, #fafafa 0%, #e2e2e2 49%);
+  }
+  body main .main_block .gallery > .gallery-block:nth-child(2) {
+    text-align: center;
+  }
+  body main .main_block .gallery > .gallery-block:nth-child(2) img {
+    width: 100%;
+  }
+  body main .main_block .gallery > .gallery-block:nth-child(2) p {
+    text-align: center;
   }
 }
 body main .main_block .description {

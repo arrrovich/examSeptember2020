@@ -1,0 +1,194 @@
+main {
+    h1 {
+        font-size: 25px;
+        color: #505050;
+    }
+    p {
+        color: #5f7390;
+        font-size: 15px;
+        margin-left: 12px;
+    }
+    max-width: 935px;
+    margin: 0 auto;
+    background-color: #e7e8ea;
+    border-radius: 10px 10px 0 0;
+    .header-main {
+        width: 100%;
+        height: 130px;
+        margin: auto;
+        background-color: #e0e1e3;
+        margin-top: 42px;
+        border-radius: 10px 10px 0 0;
+
+        .header-main-flex {
+            display: flex;
+            justify-content: space-between;
+            div {
+                margin-top: 20px;
+                padding: 0 40px; 
+                h1 {
+                    font-size: 25px;
+                    color: #505050;
+                }
+                p {
+                    color: #5f7390;
+                    font-size: 15px;
+                    margin-left: 12px;
+                }
+                input {
+                    margin-top: 5px;
+                    border-radius: 15px;
+                    width: 244px;
+                    height: 27px;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 800px) {
+        .header-main {
+            display: none;
+        }
+    }
+
+
+    .top-block {
+        .top-block-title {
+            width: 50%;
+            margin: auto;
+            
+        }
+        .bot-block-flex {
+            display: flex;
+            justify-content: center;
+            margin-top: 15px;
+            div {
+                text-align: center;
+                div {
+                    display: flex;
+                    margin-top: 8px;
+                    p {font-size: 14px;}
+
+                    & > div:nth-child(1) {
+                        margin-left: 12px;
+                    }
+                }
+                img {
+                    width: 80%;
+                }
+                div {
+                    img {
+                        padding: 0;
+                        margin: 0;
+                        width: 16px;
+                        height: 16px;
+                    }
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 800px) {
+        .top-block {
+            .top-block-title {
+                margin: 0;
+                padding: 0;
+                width: 90%;
+                margin: auto;
+                h1,p {text-align: center;}
+                h1 {font-size: 17px; margin-top: 15px;}
+                p {font-size: 12px;}
+            }
+            .bot-block-flex {
+                display: block;
+            }
+        }
+    }
+
+
+    .bot-block {
+        max-width: 775px;
+        border: 1px solid rgb(196, 195, 195);
+        margin: auto;
+        margin-top: 80px;
+        background-color: #edeeef;
+        .variations-imgs {
+            width: 100%;
+            margin: auto;
+            align-items: center;
+            margin-top: -10px;
+            .steps {
+                width: 50%;
+                display: flex;
+                justify-content: space-between;
+                margin: auto;
+                margin-top: -30px;
+            }
+            .line {
+                width: 50%;
+                margin: auto;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
+        .title {
+            width: 100%;
+            h1,p {
+                text-align: center;
+            }
+            margin-top: 20px;
+        }
+
+        .play-stop-info {
+            width: 70%;
+            display: flex;
+            justify-content: space-around;
+            margin: auto;
+        }
+
+        .desciption {
+            width: 90%;
+            margin: auto;
+            p,h1 {margin: 0}
+            p {margin-top: 15px;}
+            h1 {margin-top: 30px;}
+        }
+
+        .variations-passages {
+            margin-top: 35px;
+            display: flex;
+            justify-content: center;
+            h1 {
+                margin-right: 55px;
+            }
+            .par-block {
+                & > div:nth-child(n) {
+                    display: flex;
+                    margin-top: 8px;
+                    margin-left: 50px;
+                }
+                & > div:nth-child(1) {
+                    margin-top: 25px;
+                }   
+            }
+        }
+
+        @media screen and (max-width: 800px) {
+            .variations-passages {
+                display: block;
+                .img-page3  {
+                    width: 100%;
+                    text-align: center;
+                    img {
+                        width: 40%;
+                    }
+                }
+                
+            }
+        }
+
+    }
+
+}
